@@ -1,0 +1,8 @@
+<p>Titulo: {{titulo}}</p>
+
+<div>
+  <button disabled (click)="decrement()"> - </button>
+  <p>Contador: {{valor}}</p>
+  <button [disabled]='valor >= 10' (click)="increment()"> + </button>
+</div>
+
